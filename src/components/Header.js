@@ -71,6 +71,10 @@ const Header = () => {
     <>
       <header>
         <nav>
+          <input type="checkbox" id="check" />
+          <label htmlFor="check" className="checkBtn">
+            <i className="fas fa-bars"></i>
+          </label>
           <ul>
             {category.map((value, index) => {
               return (
